@@ -68,7 +68,7 @@ curl -X POST https://api.follicle-force-3000.com/process-profile \
 ### Docker-based Endpoint
 
 ```bash
-curl -X POST https://api.follicle-force-3000.com/process-profile-docker \
+curl -X POST https://5bxgleksjh.execute-api.us-west-2.amazonaws.com/scoreProfileDocker
   -H "Content-Type: application/json" \
   -d '{
     "name": "John Doe",
